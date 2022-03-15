@@ -73,7 +73,9 @@ body {
 
 }
 
-
+#pizzagif {
+	width: 400px;
+}
 
 .container > .related-post {
 	background: #2d3436;
