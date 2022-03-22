@@ -1,0 +1,27 @@
+/*Sucursales2.0*/
+.container2 {
+	width: 75%;
+	max-width: 1000px;
+	margin: 1.6em auto;
+	display: grid;
+	gap: 1em;
+	grid-template-columns: repeat (4,1fr) ; 
+}
+.sidebar2 {
+	grid-column: span 4;
+	background: #485460;
+	color: #ffffff;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.listaPrecios {
+	display: flex;
+	justify-content: center;
+}
+.figure {
+	display: flex;
+	justify-content: center;
+}
