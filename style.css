@@ -175,7 +175,7 @@ box-shadow:  5px 5px 9px #6e7749,
 	color: rgb(255, 219, 0)
 }
 .header__design {
-	width: 718px;
+	width: 850px;
 	height: 74px;
 	padding-left: 20px;
 	padding-top: 10px ;
@@ -193,9 +193,16 @@ box-shadow:  5px 5px 9px #6e7749,
 .lista__precios {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+}
+.titulo__potres {
+	padding-left: 230px;
+	color: white;
+	
 }
 .ulListPrices {
 	width: 250px;
-	height: 200px;
-	border: solid 1px;
+	height: 220px;
+	border: solid 1px rgb(66, 199, 66);
+	padding: 5px;
 }
