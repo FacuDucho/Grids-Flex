@@ -1,12 +1,14 @@
 body {
 	background-color: bisque;
 	font-family: 'Iceberg', cursive;
+	background-image: linear-gradient(to right bottom, #4a5927, #665d0d, #8a5b00, #b54e02, #e02e2e);
 }
 
 .title h1 {
 	display: flex;
 	justify-content: center;
 	font-size: 3em;
+	color: rgb(255, 219, 0)
 }
 .header {
 	display:flex;
@@ -38,7 +40,6 @@ body {
 .container> .sidebar,
 .container> .footer, 
 .container> div {
-    background: #fff;
     padding: 10px;
     border: 1px solid #000000; }
 
@@ -47,19 +48,24 @@ body {
 		grid-column: 1/5;
 		background-color: #1e272e;
 		color: #ffffff;
+		border-radius: 0px;
+		background: linear-gradient(145deg, #6f5656, #5e4848);
+		box-shadow:  5px 5px 9px #382b2b,
+             		 -5px -5px 9px #987575;
 	}
 
-.container > .content {
+.container {
+    .content  {
 	grid-column: span 2;
 	background-color: brown;
+    
+    .article {
+        background-color: brown;
+        padding: 20px;
+        margin-top: 10px;
+    }
+  }	
 }
-
-.content .article {
-	background-color: brown;
-	padding: 20px;
-	margin-top: 10px;
-}
-
 .content .article h1,
 .content .article p {
     padding: 10px;
@@ -73,6 +79,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	border-radius: 0px;
+	background: linear-gradient(145deg, #daec92, #b8c77a);
+	box-shadow:  5px 5px 9px #6e7749,
+             -5px -5px 9px #ffffc7;
 
 }
 
@@ -109,4 +119,16 @@ body {
     .container .related-post {
         grid-column: 1/-1;
     }
+}
+.article {
+	background-image: linear-gradient(to left, red , yellow) ;
+}
+.related-post {
+	border-radius: 0px;
+	background: #943d3d;
+	box-shadow: inset 20px 20px 39px #532222,
+    inset -20px -20px 39px #d55858;
+}
+.sidebar {
+	border-radius: 0px;
 }

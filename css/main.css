@@ -3,16 +3,22 @@
   margin: 0;
   padding: 0; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 /*PARTIALS*/
 /*VIEWS*/
 body {
   background-color: bisque;
-  font-family: 'Iceberg', cursive; }
+  font-family: 'Iceberg', cursive;
+  background-image: linear-gradient(to right bottom, #4a5927, #665d0d, #8a5b00, #b54e02, #e02e2e); }
 
 .title h1 {
   display: flex;
   justify-content: center;
-  font-size: 3em; }
+  font-size: 3em;
+  color: #ffdb00; }
 
 .header {
   display: flex;
@@ -42,7 +48,6 @@ body {
 .container > .sidebar,
 .container > .footer,
 .container > div {
-  background: #fff;
   padding: 10px;
   border: 1px solid #000000; }
 
@@ -50,7 +55,11 @@ body {
 .container .footer {
   grid-column: 1/5;
   background-color: #1e272e;
-  color: #ffffff; }
+  color: #ffffff;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #6f5656, #5e4848);
+  box-shadow: 5px 5px 9px #382b2b,
+ -5px -5px 9px #987575; }
 
 .container > .content {
   grid-column: span 2;
@@ -72,7 +81,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #daec92, #b8c77a);
+  box-shadow: 5px 5px 9px #6e7749,
+ -5px -5px 9px #ffffc7; }
 
 #pizzagif {
   width: 400px; }
@@ -100,6 +113,18 @@ body {
   .container .related-post {
     grid-column: 1/-1; } }
 
+.article {
+  background-image: linear-gradient(to left, red, yellow); }
+
+.related-post {
+  border-radius: 0px;
+  background: #943d3d;
+  box-shadow: inset 20px 20px 39px #532222,
+ inset -20px -20px 39px #d55858; }
+
+.sidebar {
+  border-radius: 0px; }
+
 /*Sucursales2.0*/
 .container2 {
   width: 75%;
@@ -126,3 +151,153 @@ body {
 .figure {
   display: flex;
   justify-content: center; }
+
+/*Nuestro Menu*/
+.title2 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: #ffdb00; }
+
+.header__design {
+  width: 850px;
+  height: 74px;
+  padding-left: 20px;
+  padding-top: 10px;
+  background-color: #1e272e;
+  color: #ffffff;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #6f5656, #5e4848);
+  box-shadow: 5px 5px 9px #382b2b,
+ -5px -5px 9px #987575; }
+
+.header2 {
+  padding-left: 230px;
+  padding-bottom: 10px; }
+
+.lista__precios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.titulo__potres {
+  padding-left: 230px;
+  color: white; }
+
+.ulListPrices {
+  width: 250px;
+  height: 220px;
+  border: solid 1px #42c742;
+  padding: 5px; }
+
+/*Registrate*/
+.datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.completa_tus_datos {
+  width: 400px;
+  height: 350px;
+  border: solid 2px black;
+  margin-right: 10px; }
+
+.donde_lo_llevamos {
+  width: 400px;
+  height: 350px;
+  border: solid 2px black;
+  margin-right: 10px; }
+
+.title_info {
+  padding: 3px;
+  color: white; }
+
+.sexo {
+  padding-left: 50px; }
+
+.selector {
+  padding-left: 100px; }
+
+.nombre_title {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.apellido_title {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.nombre {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.apellido {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.direccion {
+  padding: 10px 50px 30px; }
+
+.piso {
+  padding: 10px 50px 30px; }
+
+.codigoP {
+  padding: 10px 50px 30px; }
+
+.localidadDis {
+  padding: 10px 50px 30px; }
+
+.sorteos_info {
+  padding-left: 380px;
+  padding-top: 10px;
+  color: #ffffc7; }
+
+.Datos_Js {
+  margin: 10px 175px 80px;
+  height: 98px;
+  width: 900px;
+  padding: 10px; }
+
+.booton_datos {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 10px; }
+
+.footer3 {
+  margin: 30px 175px;
+  height: 98px;
+  width: 900px;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  background: linear-gradient(145deg, #6f5656, #5e4848);
+  box-shadow: 5px 5px 9px #382b2b,
+ -5px -5px 9px #987575; }
+
+/*Hace tu pedido*/
+.estilos_cajas {
+  display: flex;
+  justify-content: center; }
+
+.cajas {
+  width: 300px;
+  height: 300px;
+  border: 1px solid greenyellow;
+  margin: 10px; }
+
+.titulo_comidas {
+  font-size: 20px;
+  color: aqua; }
+
+.caja_uno_estructura {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px; }
+
+.caja_dos_estructura {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px; }
