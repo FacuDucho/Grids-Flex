@@ -302,3 +302,32 @@ body {
 		box-shadow:  5px 5px 9px #382b2b,
              		 -5px -5px 9px #987575;
 }
+
+/*HACE TU PEDIDO*/
+.estilos_cajas {
+	display: flex;
+	justify-content: center;
+}
+
+.cajas {
+	width: 300px;
+	height: 300px;
+	border: 1px solid greenyellow;
+	margin: 10px;
+}
+.titulo_comidas {
+	font-size: 20px; 
+	color: aqua;
+}
+.caja_uno_estructura {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+}
+.caja_dos_estructura {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+}
