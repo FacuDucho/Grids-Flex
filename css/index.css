@@ -3,10 +3,6 @@
   margin: 0;
   padding: 0; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 /*PARTIALS*/
 /*VIEWS*/
 body {
@@ -58,17 +54,15 @@ body {
   color: #ffffff;
   border-radius: 0px;
   background: linear-gradient(145deg, #6f5656, #5e4848);
-  box-shadow: 5px 5px 9px #382b2b,
- -5px -5px 9px #987575; }
+  box-shadow: 5px 5px 9px #382b2b, -5px -5px 9px #987575; }
 
-.container > .content {
+.container .content {
   grid-column: span 2;
   background-color: brown; }
-
-.content .article {
-  background-color: brown;
-  padding: 20px;
-  margin-top: 10px; }
+  .container .content .article {
+    background-color: brown;
+    padding: 20px;
+    margin-top: 10px; }
 
 .content .article h1,
 .content .article p {
@@ -84,8 +78,7 @@ body {
   flex-direction: column;
   border-radius: 0px;
   background: linear-gradient(145deg, #daec92, #b8c77a);
-  box-shadow: 5px 5px 9px #6e7749,
- -5px -5px 9px #ffffc7; }
+  box-shadow: 5px 5px 9px #6e7749, -5px -5px 9px #ffffc7; }
 
 #pizzagif {
   width: 400px; }
@@ -119,11 +112,13 @@ body {
 .related-post {
   border-radius: 0px;
   background: #943d3d;
-  box-shadow: inset 20px 20px 39px #532222,
- inset -20px -20px 39px #d55858; }
+  box-shadow: inset 20px 20px 39px #532222, inset -20px -20px 39px #d55858; }
 
 .sidebar {
   border-radius: 0px; }
+
+div {
+  background-color: #000000; }
 
 /*Sucursales2.0*/
 .container2 {
@@ -152,6 +147,9 @@ body {
   display: flex;
   justify-content: center; }
 
+p nav {
+  background-color: aqua; }
+
 /*Nuestro Menu*/
 .title2 h1 {
   display: flex;
@@ -168,8 +166,7 @@ body {
   color: #ffffff;
   border-radius: 0px;
   background: linear-gradient(145deg, #6f5656, #5e4848);
-  box-shadow: 5px 5px 9px #382b2b,
- -5px -5px 9px #987575; }
+  box-shadow: 5px 5px 9px #382b2b, -5px -5px 9px #987575; }
 
 .header2 {
   padding-left: 230px;
@@ -272,8 +269,7 @@ body {
   color: #ffffff;
   border: 1px solid #000000;
   background: linear-gradient(145deg, #6f5656, #5e4848);
-  box-shadow: 5px 5px 9px #382b2b,
- -5px -5px 9px #987575; }
+  box-shadow: 5px 5px 9px #382b2b, -5px -5px 9px #987575; }
 
 /*Hace tu pedido*/
 .estilos_cajas {
@@ -290,14 +286,11 @@ body {
   font-size: 20px;
   color: aqua; }
 
-.caja_uno_estructura {
+.caja_estructura {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 10px; }
 
-.caja_dos_estructura {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px; }
+btn--redes {
+  background-color: green; }
