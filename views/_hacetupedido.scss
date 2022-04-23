@@ -23,13 +23,11 @@
 	padding: 10px;
 }
 
-$colores: ("eye": "\f112", "start": "\f12e", "stop": "\f12f");
+$colores: ("pizza": rgb(32, 89, 244), "empanadas": rgb(243, 86, 86), "gaseosas": rgb(114, 176, 56), "postres": rgb(232, 235, 57));
 
 @each $name, $color in $colores {
-  .color-#{$name}:before {
-    display: inline-block;
-    font-family: "Icon Font";
-    content: $color;
+  .color-#{$name}{
+    color: $color;
   }
 }
 
