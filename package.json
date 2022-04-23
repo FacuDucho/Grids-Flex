@@ -1,6 +1,7 @@
 {
   "name": "grids-flex-main",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -228,7 +229,7 @@
     "rimraf": "^3.0.2",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
-    "sass": "^1.49.11",
+    "sass": "^1.50.0",
     "sass-graph": "^4.0.0",
     "scss-tokenizer": "^0.3.0",
     "semver": "^7.3.5",
@@ -309,6 +310,5 @@
   "bugs": {
     "url": "https://github.com/FacuDucho/Grids-Flex/issues"
   },
-  "homepage": "https://github.com/FacuDucho/Grids-Flex#readme",
-  "description": ""
+  "homepage": "https://github.com/FacuDucho/Grids-Flex#readme"
 }

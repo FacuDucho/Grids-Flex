@@ -38,3 +38,14 @@
 	border: solid 1px rgb(66, 199, 66);
 	padding: 5px;
 }
+
+.tablamenu {
+	grid-column: 1/5;
+	color: white;
+}
+.tablamenu2 {
+	grid-column: 1/5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
